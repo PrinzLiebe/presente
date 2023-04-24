@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'beautiful';
+    src: url('fonts/Beauty.otf') format('opentype');
+}
+@font-face {
+    font-family: 'girlfriend';
+    src: url('fonts/Filxgirl.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'signature';
+    src: url('fonts/Sweety\ Rasty.otf') format('opentype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background: black url('imgs/linguinha.png') no-repeat fixed top center/cover;
+    flex: 1 0 auto;
+    width: 100%;
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+audio{
+    width: 100%;
+}
+
+h1{
+    font-family: 'beautiful', cursive;
+    font-size: 2.3rem;
+    background-color: rgba(0, 0, 0, 0.212);
+    color: aliceblue;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: .2rem;
+}
+
+h2{
+    font-family: 'beautiful', cursive;
+    font-size: 1.5rem;
+}
+
+#memoriesSpace{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: .3rem;
+    height: 200px;
+    background-color: black;
+}
+
+.memoryCard{
+    width: 80%;
+    min-height: 200px;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memCardText{
+    width: 100%;
+    font-family: 'girlfriend', Arial, cursive;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: aliceblue;
+    padding: .3rem;
+}
+
+#memor1{
+    background: black url('imgs/morango.jpg') no-repeat center center/cover;
+}
+
+#memor2{
+    background: black url('imgs/tanzuko.png') no-repeat top center/cover;
+}
+
+#memor3{
+    background: black url('imgs/pitaya.jpg') no-repeat center center/cover;
+}
+
+#memor4{
+    background: black url('imgs/chuva.jpg') no-repeat center center/cover;
+}
+
+#memor5{
+    background: black url('imgs/colar.webp') no-repeat center center/cover;
+}
+
+#memor6{
+    background: black url('imgs/vozdosilencio.jpg') no-repeat center center/cover;
+}
+
+#memor7{
+    background: black url('imgs/bikes.jpg') no-repeat center center/cover;
+}
+
+#memorF{
+    background: black url('imgs/duo.jpg') no-repeat center center/cover;
+}
+
+.plusLine{
+    width: .3rem;
+    height: 50px;
+    background-color: black;
+}
+
+.block{
+    width: 100%;
+    height: 50px;
+    border: .3rem solid black;
+}
+
+#newSBtn{
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contText{
+    font-family: 'beautiful';
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.212);
+    color: aliceblue;
+    border-top: 2px solid black;
+    padding: .2rem;
+}
+
+footer{
+    width: 100%;
+    font-family: 'signature';
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: .2rem 0;
+}
+
+@media (max-width: 320px) {
+    .memCardText{
+        padding: 0;
+    }
+}
